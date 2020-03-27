@@ -45,7 +45,8 @@
       "pages": [
         "pages/recommendSong/recommendSong",
         "pages/song/song"
-      ]
+      ],
+      "independent": true
     }
   ]
 }
