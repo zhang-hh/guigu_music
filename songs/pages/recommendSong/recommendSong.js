@@ -1,5 +1,5 @@
 // pages/recommendSong/recommendSong.js
-import request from "../../utils/request";
+import request from "../../../utils/request";
 import Pubsub from 'pubsub-js';
 Page({
 
@@ -27,7 +27,7 @@ Page({
        如果传递的不是会自动的toString方法
        并且路由传参不推荐传递大数据,他可能会缺失一部分
        */
-      url:`/pages/song/song?musicId=${musicId}`
+      url:`/songs/pages/song/song?musicId=${musicId}`
     })
   },
   /**
