@@ -1,0 +1,137 @@
+.user-section{
+    height: 520rpx;
+    padding: 100rpx 30rpx 0;
+    position: relative;
+}
+.user-section .bg{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    filter: blur(1px);
+    opacity: .7;
+}
+.user-section .user-info-box{
+    height: 180rpx;
+    display: flex;
+    position: relative;
+    align-items: center;
+    z-index: 1;
+}
+.user-section .user-info-box .avatar{
+    width: 130rpx;
+    height: 130rpx;
+    border-radius: 50%;
+    margin-right: 20rpx;
+}
+.user-section .user-info-box .userIdentity{
+    font-size: 32rpx;
+}
+.vip-card{
+    position: relative;
+    display: flex;
+    height: 240rpx;
+    color: #f7d680;
+    background: rgba(0, 0, 0, .7);
+    border-radius: 16rpx 16rpx 0 0;
+    flex-direction: column;
+    padding: 20rpx;
+}
+.vip-card .vip-card-bg{
+    position:absolute;
+    top: 20rpx;
+    right: 0;
+    width: 380rpx;
+    height: 260rpx;
+}
+.vip-card .tit{
+    margin-bottom: 50rpx;
+}
+.vip-card .tit .vip{
+    font-size: 22rpx;
+    margin-left: 20rpx;
+}
+.vip-card .tit .btn{
+   color: #36343c;
+   position: absolute;
+   top: 20rpx;
+   right: 20rpx;
+   font-size: 22rpx;
+   padding: 4rpx 18rpx;
+   background-color: #f9e6af;
+   border-radius: 24rpx;
+}
+.vip-card .left{
+    font-size: 34rpx;
+    margin-bottom: 10rpx;
+}
+.vip-card .right{
+    font-size: 24rpx;
+}
+
+
+.navContainer{
+    margin-top: -130rpx;
+    padding: 0 30rpx;
+    position:relative;
+    background: #f5f5f5;
+    padding-bottom: 20rpx;
+    transition: transform 0.3s cubic-bezier(.21,1.93,.53,.64);
+}
+.navContainer .nav-bg{
+    position: absolute;
+    top:-34rpx;
+    left: 0;
+    height: 36rpx;
+    width:  100%;
+
+}
+.navContainer .nav-section{
+    background-color: #fff;
+    display: flex;
+    border-radius: 20rpx;
+    padding: 20rpx 0;
+}
+.nav-section .nav-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+}
+.nav-section .nav-item .iconfont{
+    font-size: 50rpx;
+    color: #d43c33;
+    line-height: 70rpx;
+}
+.nav-section .nav-item text{
+    font-size: 22rpx;
+}
+/*个人中心列表*/
+.personalContent{
+    background-color: #fff;
+    margin-top: 20rpx;
+}
+.personalContent .recentPlayContainer{
+/*    display: flex;*/
+}
+.recentPlayContainer .title {
+    padding-left: 20rpx;
+    font-size: 26rpx;
+    color: #333;
+    line-height: 80rpx;
+}
+.personalContent .cardList{
+    margin-top: 20rpx;
+}
+.personalContent .cardList .cardItem{
+    border-top: 1rpx solid #eee;
+    height: 80rpx;
+    line-height: 80rpx;
+    padding: 10rpx;
+    font-size: 26rpx;
+    color: #333
+}
+.cardList .cardItem .more {
+    float: right;
+}
