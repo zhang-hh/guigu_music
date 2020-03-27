@@ -47,6 +47,22 @@
         "pages/song/song"
       ],
       "independent": true
+    },
+    {
+      "root": "others",
+      "name": "othersPakckage",
+      "pages": [
+        "pages/other/other"
+      ],
+      "independent": true
     }
-  ]
+  ],
+  "preloadRule": {
+    "pages/index/index": {
+      "packages": ["songs","othersPakckage"]
+      },
+    "songs/pages/recommendSong/recommendSong": {
+      "packages": ["othersPakckage"]
+      }
+    }
 }
