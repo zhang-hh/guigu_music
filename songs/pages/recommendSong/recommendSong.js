@@ -1,5 +1,5 @@
 // pages/recommendSong/recommendSong.js
-import request from "../../../utils/request";
+import request from "../../utils/request";
 import Pubsub from 'pubsub-js';
 Page({
 

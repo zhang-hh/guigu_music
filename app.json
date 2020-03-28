@@ -46,7 +46,7 @@
         "pages/recommendSong/recommendSong",
         "pages/song/song"
       ],
-      "independent": true
+      "independent": "true"
     },
     {
       "root": "others",
@@ -54,7 +54,7 @@
       "pages": [
         "pages/other/other"
       ],
-      "independent": true
+      "independent": "true"
     }
   ],
   "preloadRule": {
@@ -64,5 +64,5 @@
     "songs/pages/recommendSong/recommendSong": {
       "packages": ["othersPakckage"]
       }
-    }
+  }
 }
